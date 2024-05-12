@@ -1,10 +1,13 @@
-import { Textfit } from 'react-textfit';
+import React, { useEffect, useState } from 'react';
 import './Screen.css';
 
 export const Screen = ({ value }) => {
-  return (
-    <Textfit className="screen" mode="single" max={70}>
-      {value}
-    </Textfit>
-  );
+  const [isSmallFont, setIsSmallFont] = useState(false);
+
+  useEffect(() => {
+    // Check if the text length exceeds a certain threshold
+    setIsSmallFont(value.length > 9); // Adjust the threshold as needed
+  }, [value]);
+
+  return <div className={`screen ${isSmallFont ? 'small' : ''}`}>{value}</div>;
 };

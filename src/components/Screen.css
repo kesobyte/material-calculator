@@ -11,4 +11,9 @@
   color: white;
   font-weight: bold;
   box-sizing: border-box;
+  font-size: 4rem; /* Default font size */
+}
+
+.small {
+  font-size: 1.8rem; /* Small font size */
 }
