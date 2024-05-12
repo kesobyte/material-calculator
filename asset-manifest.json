@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/material-calculator/static/css/main.7acaea2f.css",
+    "main.js": "/material-calculator/static/js/main.07d3183d.js",
+    "index.html": "/material-calculator/index.html",
+    "main.7acaea2f.css.map": "/material-calculator/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/material-calculator/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
